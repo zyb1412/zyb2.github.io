@@ -1,0 +1,29 @@
+body {
+    background-color: #add8e6; /* 淡蓝色背景 */
+    margin: 0; /* 移除默认边距 */
+    height: 100vh; /* 确保body高度占满整个视口 */
+    overflow: hidden; /* 防止内容溢出 */
+    position: relative; /* 为定位图片提供参照物 */
+}
+
+img {
+    width: 420px; /* 可以根据需要调整大小 */
+    margin: 40px; /* 调整图片间的间距 */
+    position: absolute; /* 绝对定位图片 */
+    
+}
+
+#fate1 {
+    top: 5%; /* 第一张图片的位置 */
+    left: 5%;
+}
+
+#fate2 {
+    top: 30%; /* 第二张图片的位置 */
+    left: 30%;
+}
+
+#fate3 {
+    top: 55%; /* 第三张图片的位置 */
+    left: 55%;
+}
